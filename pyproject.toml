@@ -1,0 +1,12 @@
+[project]
+name = "import-cycle"
+version = "0.1.0"
+description = "Detect circular imports in Python packages."
+requires-python = ">=3.9"
+
+[project.scripts]
+import-cycle = "cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
